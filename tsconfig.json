@@ -8,5 +8,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["server.ts"]
+  "include": ["src/server.ts"]
 }

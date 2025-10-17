@@ -2,8 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
 import dotenv from 'dotenv'
-import { questionnaireController } from './src/controllers/questionnaireController'
-import { connectDB } from './src/config/db'
+import { questionnaireController } from './controllers/questionnaireController'
+import { connectDB } from './config/db'
 
 // Load environment variables
 dotenv.config()
